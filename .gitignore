@@ -2,6 +2,7 @@
 vendor
 web/core
 web/modules/contrib
+web/sites/default/settings.php
 web/themes/contrib
 web/profiles/contrib
 
