@@ -14,3 +14,5 @@ $aliases['acc'] = array(
   'uri' => 'cegeka-behat.dev',
   'root' => '/var/www/web',
 );
+
+?>
