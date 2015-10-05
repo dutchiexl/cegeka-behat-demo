@@ -18,7 +18,7 @@
   "require": {
     "composer/installers": "^1.0.20",
     "drupal/core": "8.0.*",
-    "drush/drush": "dev-master",
+    ": "dev-master",
     "drupal/console": "~0.8",
 
     "drupal/devel": "8.1.*@dev",
