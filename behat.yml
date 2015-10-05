@@ -1,6 +1,8 @@
 default:
   translation:
     locale: en
+  formatters:
+    teamcity: true
   suites:
     default:
       contexts:
@@ -8,6 +10,8 @@ default:
         - Drupal\DrupalExtension\Context\DrupalContext
         - Drupal\DrupalExtension\Context\MinkContext
   extensions:
+    Behat\TeamCity\TeamCityFormatterExtension:
+        name: teamcity
     Behat\MinkExtension:
       goutte: ~
       selenium2: ~
