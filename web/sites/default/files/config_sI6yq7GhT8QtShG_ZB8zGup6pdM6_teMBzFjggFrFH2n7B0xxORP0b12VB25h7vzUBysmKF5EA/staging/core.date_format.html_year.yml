@@ -1,8 +1,0 @@
-uuid: fac260fa-0686-4ab5-8f00-c0621972f4ea
-langcode: en
-status: true
-dependencies: {  }
-id: html_year
-label: 'HTML Year'
-locked: true
-pattern: 'Y'
