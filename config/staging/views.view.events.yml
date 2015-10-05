@@ -156,6 +156,7 @@ display:
       empty: {  }
       relationships: {  }
       arguments: {  }
+      display_extenders: {  }
     cache_metadata:
       contexts:
         - 'languages:language_content'

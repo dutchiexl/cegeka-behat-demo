@@ -1,4 +1,4 @@
-uuid: 04f812f4-5a45-4a54-a759-8994a825739e
+uuid: b37a77bd-793e-4651-9f00-f357f2a77e1b
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ entity_type: node
 bundle: event
 label: 'Start date'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

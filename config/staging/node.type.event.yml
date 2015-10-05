@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: Event
 type: event
-description: ''
+description: 'Use events to create content with a start and end date.'
 help: ''
 new_revision: false
 preview_mode: 1
