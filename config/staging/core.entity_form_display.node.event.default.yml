@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.event.body
+    - field.field.node.event.field_start_date
     - node.type.event
   module:
+    - datetime
     - path
     - text
 id: node.event.default
@@ -26,6 +28,11 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
+  field_start_date:
+    weight: 32
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
   path:
     type: path
     weight: 30
