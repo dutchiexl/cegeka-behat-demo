@@ -20,10 +20,8 @@ Feature: As an administrator I want to be able to create
     When I click "Event" in the "main" region
     And I fill in the following:
       | Title | Cegeka party |
-    And I break
     And I fill in the following:
       | field_start_date[0][value][date] | 2015-10-10 |
       | field_start_date[0][value][time] | 09:00:00   |
     And I press the "Save" button
-    And I break
     Then I should see the success message containing "Event Cegeka party has been created."
